@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section id="cont-general">
+        <div class="left">
+            <h2>INTERACCIONES</h2>
+            <button id="circulo" onclick="circulo()">CÍRCULO</button>
+            <button id="rombo" onclick="rombo()">ROMBO</button>
+            <button id="fondoColor" onclick="fondoColor()">FONDO COLOR</button>
+            <button id="fondoImagen" onclick="fondoImagen()">FONDO IMAGEN</button>
+            <button id="top" onclick="btnTop()">TOP</button>
+            <button id="btnLeft" onclick="btnLeft()">LEFT</button>
+            <button id="bottom" onclick="btnBottom()">BOTTOM</button>
+            <button id="btnRight" onclick="btnRight()">RIGHT</button>
+            <button id="diagonal" onclick="diagonal()">DIAGONAL</button>
+            <button id="animation" onclick="animation()">ANIMACIÓN</button>
+            <button id="fondoDegradado" onclick="fondoDegradado()">FONDO DEGRADADO</button> 
+            <button id="btnEstrella" onclick="btnEstrella()">ESTRELLA</button>
+            <button id="panelLateral" onclick="panelLateral()">PANEL LATERAL</button>
+            <button id="panelSuperior" onclick="panelSuperior()">PANEL SUPERIOR</button>
+        </div>
+
+        <div class="right">
+            <h2 id="titulo">FIGURA</h2>
+            <div id="figura"></div>
+        </div>
+
+        <div id="panel-lateral">
+            <div class="row">
+                <h2>Menú</h2> 
+                <button id="panelLateral" onclick="panelLateral()">X</button>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Productos</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+        </div>z
+
+        <div id="panel-superior">
+            <div class="row">
+            <h2>Cancion de introduccion </h2>
+                <button id="panelSuperior" onclick="panelSuperior()">Mas...</button>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YKsI5QFfJ1U?si=-Kvs06RMsujC942U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
